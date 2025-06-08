@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Lucifer Musik Landingpage</title>
+  <style>
+    body {
+      margin: 0; 
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #121212;
+      color: #eee;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 40px 20px;
+      min-height: 100vh;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 0.3rem;
+      color: #ff0000;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+    }
+    header p {
+      font-size: 1.2rem;
+      color: #bbb;
+      max-width: 400px;
+      margin: 0 auto;
+    }
+    .spotify {
+      margin: 40px 0;
+      max-width: 660px;
+      width: 100%;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 0 20px #ff0000aa;
+    }
+    .social-links {
+      display: flex;
+      gap: 20px;
+      margin-top: 40px;
+    }
+    .social-links a {
+      color: #ff0000;
+      font-size: 1.5rem;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+    .social-links a:hover {
+      color: #ff5555;
+    }
+    .cta {
+      margin-top: 50px;
+      padding: 15px 30px;
+      background-color: #ff0000;
+      color: #121212;
+      text-transform: uppercase;
+      font-weight: bold;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      font-size: 1.2rem;
+    }
+    .cta:hover {
+      background-color: #cc0000;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Lucifer</h1>
+    <p>Offizielle Landingpage des Künstlers – Frische Beats, härter als dein Game.</p>
+  </header>
+
+  <div class="spotify">
+    <iframe src="https://open.spotify.com/artist/7x2YQaeH9LC8P4fk0AIUtD?si=zZIlfHcsQjiv724iJFBUwg" width="100%" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+  </div>
+
+  <div class="spotify-Last-Release">
+    <iframe src="https://open.spotify.com/album/4iLxY0mCf5sd9D0GtXjW0d?si=m-b8okP8THSPpbrpZBGDyw" width="100%" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+  </div>
+
+  <div class="social-links">
+    <a href="https://www.tiktok.com/@lucifer_modding?_t=ZN-8x2CfB25Lj4&_r=1" target="_blank" aria-label="TikTok">🎵</a>
+  </div>
+
+  <button class="cta" onclick="window.open('https://open.spotify.com/artist/DEINE_ARTIST_ID', '_blank')">Folge mir auf Spotify</button>
+</body>
+</html>
